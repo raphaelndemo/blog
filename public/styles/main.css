@@ -1,0 +1,15 @@
+#userInput {
+    height: 700px;
+    overflow-y: scroll;
+}
+.editable {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px; 
+    min-height: 100px;
+  }
+@media (max-width: 780px){
+    #userInput {
+        width: 100%;
+    }
+}

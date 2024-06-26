@@ -1,0 +1,9 @@
+<%- include('partials/header.ejs') %>
+
+<form action="/submit" method="POST">
+    <label for="postContent"><h4>Edit Post:</h4></label><br>
+    <textarea id="postContent" name="postContent" rows="4" cols="50"></textarea><br>
+    <button class="btn btn-primary btn-lg my-4" type="submit">Save your changes</button>
+</form>
+
+<%- include('partials/footer.ejs') %>
